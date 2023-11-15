@@ -777,11 +777,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\פרויקט\\פרויקט.csproj",
+      "projectUniqueName": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\TaskProject\\פרויקט.csproj",
       "projectName": "פרויקט",
-      "projectPath": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\פרויקט\\פרויקט.csproj",
+      "projectPath": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\TaskProject\\פרויקט.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\פרויקט\\obj\\",
+      "outputPath": "Z:\\B\\אופן רות\\מיכל\\CORE\\שיעורי בית\\TaskProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

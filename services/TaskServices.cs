@@ -38,7 +38,7 @@ namespace services{
         }
 
 
-        public void Add(Task task)
+        public void Add(long userId,Task task)
         {
               task.Id = ListTask.Count()+ 1;
               ListTask.Add(task);
@@ -67,7 +67,7 @@ namespace services{
 
         public void Update(long userId,Task task)
         {
-             var index = ListTask.FindIndex(tl => tl.AgentId == userId && tl.Id == id);
+             var index = ListTask.FindIndex(tl => tl.AgentId == userId && tl.Id ==task.Id);
              if (index == -1)
                 return;
             ListTask[index] = task;
