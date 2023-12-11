@@ -29,6 +29,7 @@ namespace פרויקט
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddHttpContextAccessor();
              services
                 .AddAuthentication(options =>
                 {
@@ -42,8 +43,8 @@ namespace פרויקט
 
             services.AddAuthorization(cfg =>
                 {
-                    cfg.AddPolicy("StoreManager", policy => policy.RequireClaim("UserType", "StoreManager"));
-                    cfg.AddPolicy("Agent", policy => policy.RequireClaim("UserType", "Agent"));
+                    cfg.AddPolicy("Manager", policy => policy.RequireClaim("UserType", "Manager"));
+                    cfg.AddPolicy("User", policy => policy.RequireClaim("UserType", "User"));
                 });
 
             services.AddControllers();
@@ -66,9 +67,9 @@ namespace פרויקט
                 }});
             });
             services.AddSingleton<Interface.InterfaceTask, services.TaskService>();
-        }
+            services.AddSingleton<Interface.InterfaceUser, services.UserServices>();
+    }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -77,21 +78,25 @@ namespace פרויקט
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "core v1"));
             }
-            //js
+        app.UseLogMiddleware("file");
+
+        //js
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+            
         }
     }
 }

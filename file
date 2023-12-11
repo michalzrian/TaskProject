@@ -1,0 +1,206 @@
+/index.html.GET started at 2023-12-06 17:10:26.393
+/index.html.GET ended at 53 ms. User: unknown
+/js/login.js.GET started at 2023-12-06 17:10:26.458
+/js/login.js.GET ended at 8 ms. User: unknown
+/favicon.ico.GET started at 2023-12-06 17:10:26.516
+/favicon.ico.GET ended at 86 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:10:31.249
+/Manager/Login.POST ended at 129 ms. User: unknown
+/task.html.GET started at 2023-12-06 17:10:31.387
+/task.html.GET ended at 5 ms. User: unknown
+/js/site.js.GET started at 2023-12-06 17:10:31.403
+/js/site.js.GET ended at 7 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 17:10:31.421
+/ControllerTask.GET ended at 67 ms. User: 112
+/ControllerTask/1.DELETE started at 2023-12-06 17:10:38.377
+/ControllerTask/1.DELETE ended at 13 ms. User: 112
+/ControllerTask.GET started at 2023-12-06 17:10:38.394
+/ControllerTask.GET ended at 3 ms. User: 112
+/task.html.GET started at 2023-12-06 17:10:41.856
+/task.html.GET ended at 5 ms. User: unknown
+/css/site.css.GET started at 2023-12-06 17:10:41.871
+/css/site.css.GET ended at 7 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 17:10:41.886
+/ControllerTask.GET ended at 3 ms. User: 112
+/ControllerTask/4.DELETE started at 2023-12-06 17:10:43.680
+/ControllerTask/4.DELETE ended at 7 ms. User: 112
+/ControllerTask.GET started at 2023-12-06 17:10:43.691
+/ControllerTask.GET ended at 4 ms. User: 112
+/User/GetAll.GET started at 2023-12-06 17:13:36.133
+/User/GetAll.GET ended at 219 ms. User: 112
+/User/GetMyUser.GET started at 2023-12-06 17:13:37.948
+/User/GetMyUser.GET ended at 8 ms. User: 112
+/User.POST started at 2023-12-06 17:13:41.721
+/User.POST ended at 44 ms. User: 112
+/User/GetAll.GET started at 2023-12-06 17:13:41.772
+/User/GetAll.GET ended at 4 ms. User: 112
+/User.POST started at 2023-12-06 17:13:54.064
+/User.POST ended at 8 ms. User: 112
+/User/GetAll.GET started at 2023-12-06 17:13:54.078
+/User/GetAll.GET ended at 4 ms. User: 112
+/.GET started at 2023-12-06 17:29:17.221
+/.GET ended at 54 ms. User: unknown
+/js/login.js.GET started at 2023-12-06 17:29:17.288
+/js/login.js.GET ended at 8 ms. User: unknown
+/favicon.ico.GET started at 2023-12-06 17:29:17.372
+/favicon.ico.GET ended at 92 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:29:46.537
+/Manager/Login.POST ended at 52 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:29:54.660
+/Manager/Login.POST ended at 114 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:30:06.890
+/Manager/Login.GET ended at 3 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:30:34.612
+/Manager/Login.GET ended at 4 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:31:37.648
+/Manager/Login.GET ended at 4 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:35:15.719
+/Manager/Login.GET ended at 4 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:35:16.482
+/Manager/Login.GET ended at 4 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:38:34.735
+/Manager/Login.GET ended at 4 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:39:21.512
+/Manager/Login.POST ended at 18 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:40:31.969
+/Manager/Login.POST ended at 4 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 17:47:23.977
+/ControllerTask.GET ended at 81 ms. User: 112
+/ControllerTask.GET started at 2023-12-06 17:47:48.103
+/ControllerTask.GET ended at 5 ms. User: 112
+/ControllerTask/4.GET started at 2023-12-06 17:49:20.080
+/ControllerTask/4.GET ended at 7 ms. User: 112
+/ControllerTask/4.GET started at 2023-12-06 17:49:35.117
+/ControllerTask/4.GET ended at 6 ms. User: unknown
+/ControllerTask/4.GET started at 2023-12-06 17:49:38.639
+/ControllerTask/4.GET ended at 4 ms. User: unknown
+/ControllerTask/4.GET started at 2023-12-06 17:50:39.156
+/ControllerTask/4.GET ended at 4 ms. User: unknown
+/ControllerTask/3.GET started at 2023-12-06 17:50:57.900
+/ControllerTask/3.GET ended at 4 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:51:57.402
+/Manager/Login.POST ended at 4 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 17:53:22.865
+/Manager/Login.POST ended at 4 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 17:53:35.767
+/Manager/Login.POST ended at 4 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 17:53:48.238
+/Manager/Login.POST ended at 3 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 17:54:47.818
+/Manager/Login.POST ended at 4 ms. User: 112
+/ControllerTask/4.GET started at 2023-12-06 17:55:01.582
+/ControllerTask/4.GET ended at 4 ms. User: 112
+/ControllerTask.POST started at 2023-12-06 17:58:00.908
+/ControllerTask.POST ended at 3 ms. User: unknown
+/Manager/Login.GET started at 2023-12-06 17:58:40.651
+/Manager/Login.GET ended at 4 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 17:58:50.371
+/Manager/Login.POST ended at 4 ms. User: 112
+/ControllerTask.POST started at 2023-12-06 18:00:33.664
+/ControllerTask.POST ended at 34 ms. User: 112
+/Manager/Login.GET started at 2023-12-06 18:02:00.182
+/Manager/Login.GET ended at 4 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 18:02:04.505
+/Manager/Login.POST ended at 4 ms. User: 112
+/ControllerTask/2.PUT started at 2023-12-06 18:02:32.114
+/ControllerTask/2.PUT ended at 3 ms. User: unknown
+/ControllerTask/4.PUT started at 2023-12-06 18:03:17.283
+/ControllerTask/4.PUT ended at 7 ms. User: 112
+/ControllerTask/1.PUT started at 2023-12-06 18:03:30.765
+/ControllerTask/1.PUT ended at 3 ms. User: unknown
+/ControllerTask/1.PUT started at 2023-12-06 18:03:33.969
+/ControllerTask/1.PUT ended at 3 ms. User: unknown
+/ControllerTask/5.PUT started at 2023-12-06 18:03:49.575
+/ControllerTask/5.PUT ended at 3 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:05:01.429
+/Manager/Login.POST ended at 28 ms. User: unknown
+/task.html.GET started at 2023-12-06 18:05:01.472
+/task.html.GET ended at 8 ms. User: unknown
+/js/site.js.GET started at 2023-12-06 18:05:01.488
+/js/site.js.GET ended at 7 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 18:05:01.503
+/ControllerTask.GET ended at 4 ms. User: 112
+/favicon.ico.GET started at 2023-12-06 18:05:03.083
+/favicon.ico.GET ended at 4 ms. User: unknown
+/ControllerTask.POST started at 2023-12-06 18:05:07.482
+/ControllerTask.POST ended at 15 ms. User: 112
+/ControllerTask.GET started at 2023-12-06 18:05:07.503
+/ControllerTask.GET ended at 3 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:05:20.961
+/ControllerTask/5.PUT ended at 3 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:05:26.564
+/ControllerTask/5.PUT ended at 3 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:05:33.106
+/ControllerTask/5.PUT ended at 3 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:05:56.487
+/ControllerTask/5.PUT ended at 25 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:06:06.522
+/ControllerTask/5.PUT ended at 3 ms. User: 112
+/ControllerTask/5.PUT started at 2023-12-06 18:06:34.071
+/ControllerTask/5.PUT ended at 3 ms. User: 112
+/Manager/Login.POST started at 2023-12-06 18:07:25.893
+/Manager/Login.POST ended at 3 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:08:04.792
+/Manager/Login.POST ended at 4 ms. User: 112
+/ControllerTask/4.PUT started at 2023-12-06 18:08:34.834
+/ControllerTask/4.PUT ended at 3 ms. User: unknown
+/ControllerTask/4.PUT started at 2023-12-06 18:08:47.629
+/ControllerTask/4.PUT ended at 3 ms. User: unknown
+/ControllerTask/4.PUT started at 2023-12-06 18:09:16.247
+/ControllerTask/4.PUT ended at 7 ms. User: 112
+/ControllerTask/4.DELETE started at 2023-12-06 18:11:23.951
+/ControllerTask/4.DELETE ended at 3 ms. User: unknown
+/ControllerTask/4.DELETE started at 2023-12-06 18:11:42.735
+/ControllerTask/4.DELETE ended at 3 ms. User: unknown
+/ControllerTask/4.DELETE started at 2023-12-06 18:14:02.578
+/ControllerTask/4.DELETE ended at 2 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:14:30.810
+/Manager/Login.POST ended at 3 ms. User: unknown
+/ControllerTask/3.POST started at 2023-12-06 18:14:58.969
+/ControllerTask/3.POST ended at 64 ms. User: unknown
+/ControllerTask/3.POST started at 2023-12-06 18:15:04.611
+/ControllerTask/3.POST ended at 2 ms. User: unknown
+/ControllerTask/2.POST started at 2023-12-06 18:15:14.645
+/ControllerTask/2.POST ended at 3 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:15:58.175
+/Manager/Login.POST ended at 4 ms. User: 112
+/ControllerTask/3.DELETE started at 2023-12-06 18:16:18.574
+/ControllerTask/3.DELETE ended at 9 ms. User: 112
+/User/GetAll.GET started at 2023-12-06 18:19:30.976
+/User/GetAll.GET ended at 45 ms. User: unknown
+/User/GetAll.GET started at 2023-12-06 18:20:08.650
+/User/GetAll.GET ended at 52 ms. User: 112
+/User/GetMyUser.GET started at 2023-12-06 18:21:21.415
+/User/GetMyUser.GET ended at 48 ms. User: unknown
+/User/GetMyUser.GET started at 2023-12-06 18:21:45.999
+/User/GetMyUser.GET ended at 4 ms. User: unknown
+/User/GetMyUser.GET started at 2023-12-06 18:21:50.590
+/User/GetMyUser.GET ended at 4 ms. User: unknown
+/User/GetMyUser.GET started at 2023-12-06 18:21:57.858
+/User/GetMyUser.GET ended at 5 ms. User: 112
+/User.POST started at 2023-12-06 18:22:29.595
+/User.POST ended at 3 ms. User: unknown
+/User.GET started at 2023-12-06 18:23:15.462
+/User.GET ended at 26 ms. User: 112
+/User.POST started at 2023-12-06 18:23:31.110
+/User.POST ended at 11 ms. User: 112
+/User.DELETE started at 2023-12-06 18:24:41.415
+/User.DELETE ended at 3 ms. User: unknown
+/User.DELETE started at 2023-12-06 18:25:20.895
+/User.DELETE ended at 3 ms. User: unknown
+/User.DELETE started at 2023-12-06 18:25:51.493
+/User.DELETE ended at 35 ms. User: 112
+/User.DELETE started at 2023-12-06 18:26:08.602
+/User.DELETE ended at 11 ms. User: 112
+/User.POST started at 2023-12-06 18:26:51.414
+/User.POST ended at 3 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:28:06.085
+/Manager/Login.POST ended at 4 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:28:13.346
+/Manager/Login.POST ended at 3 ms. User: unknown
+/Manager/Login.POST started at 2023-12-06 18:28:28.661
+/Manager/Login.POST ended at 3 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 18:29:59.012
+/ControllerTask.GET ended at 4 ms. User: unknown
+/ControllerTask.GET started at 2023-12-06 18:31:04.023
+/ControllerTask.GET ended at 4 ms. User: 116

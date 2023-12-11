@@ -70,3 +70,5 @@ Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\obj\Debug\net
 Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\obj\Debug\net5.0\פרויקט.RazorTargetAssemblyInfo.cache
 Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\obj\Debug\net5.0\פרויקט.csproj.CopyComplete
 Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\obj\Debug\net5.0\פרויקט.genruntimeconfig.cache
+Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\bin\Debug\net5.0\Data\ListTask.json
+Z:\B\אופן רות\מיכל\CORE\שיעורי בית\TaskProject\bin\Debug\net5.0\Data\User.json

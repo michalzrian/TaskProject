@@ -7,6 +7,7 @@ using System;
 using System.Net;
 using System.Text.Json;
 using Microsoft.AspNetCore.Hosting;
+
 // using Task = Models.Task;
 
 namespace services{
@@ -16,6 +17,7 @@ namespace services{
      List<Task> ListTask {get;}
 
         // filePath
+
         private IWebHostEnvironment  webHost;
         private string filePath;
         public TaskService(IWebHostEnvironment webHost)
@@ -37,12 +39,20 @@ namespace services{
             File.WriteAllText(filePath, JsonSerializer.Serialize(ListTask));
         }
 
+        // public void Add(long userId,Task task)
 
         public void Add(long userId,Task task)
         {
-              task.Id = ListTask.Count()+ 1;
-              ListTask.Add(task);
-              changeInFile();
+            task.Id = ListTask.Count()+ 1;
+            Console.WriteLine(userId )  ;
+
+             
+                task.AgentId = userId;
+                ListTask.Add(task);
+                changeInFile();
+              
+              
+
 
         }
 
@@ -54,28 +64,29 @@ namespace services{
             changeInFile();
                    
         }
-
         public List<Task> Get(long userId)
         {
-            return ListTask.Where(t => t.AgentId == userId).ToList();
+            return ListTask.Where( t => t.AgentId == userId).ToList();
         }
 
         public Task GetById(long userId,int id)
         {
             return ListTask.FirstOrDefault(tl => tl.AgentId == userId && tl.Id == id);
         }
+        // public void Update(long userId,Task task)
 
         public void Update(long userId,Task task)
         {
              var index = ListTask.FindIndex(tl => tl.AgentId == userId && tl.Id ==task.Id);
              if (index == -1)
                 return;
+            task.AgentId = userId;
             ListTask[index] = task;
             changeInFile();
         }
-         public int Count(long userId)
+         public int Count()
         {
-                return Get(userId).Count();
+                return ListTask.Count();
         } 
     }
 

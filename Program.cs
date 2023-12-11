@@ -23,6 +23,8 @@ namespace פרויקט
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-    }
+
+            }
 }
+
 

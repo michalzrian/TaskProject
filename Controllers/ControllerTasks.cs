@@ -7,23 +7,24 @@ using Microsoft.Extensions.Logging;
 using services;
 using Interface;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 
 namespace Controllers{
 
 [ApiController]
 [Route("[controller]")]
-[Authorize(Policy = "Agent")]
-
+[Authorize(Policy = "User")]
 public class ControllerTask:ControllerBase{
 
-    private long userId;
+    // private long userId;
+        private readonly long userId;
 
     private InterfaceTask TaskServise;
 
-public ControllerTask(InterfaceTask TaskServise)
+public ControllerTask(InterfaceTask TaskServise,IHttpContextAccessor httpContextAccessor)
 {
     this.TaskServise = TaskServise;
-    this.userId = long.Parse(User.FindFirst("UserId")?.Value ?? "");
+    this.userId = long.Parse(httpContextAccessor.HttpContext?.User?.FindFirst("UserId")?.Value);
 
 
 }
@@ -57,10 +58,10 @@ public ControllerTask(InterfaceTask TaskServise)
     {
         if (id != task.Id)
             return BadRequest();
-        var IsId = TaskServise.GetById(userId,id);
+        var IsId = TaskServise.GetById( userId,id);
         if (IsId is null)return NotFound();
 
-        TaskServise.Update(userId,task);
+        TaskServise.Update( userId,task);
 
         return NoContent();
 
@@ -72,8 +73,8 @@ public ControllerTask(InterfaceTask TaskServise)
         var isId = TaskServise.GetById(userId,id);
         if (isId is null)
             return NotFound();
-        TaskServise.Delete(userId,id);
-        return Content(TaskServise.Count(userId).ToString());
+        TaskServise.Delete( userId,id);
+        return Content(TaskServise.Count().ToString());
     }
 
 }
